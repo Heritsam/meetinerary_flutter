@@ -4,12 +4,7 @@ abstract class ProfileEvent extends Equatable {
   const ProfileEvent();
 }
 
-class ProfileLoading extends ProfileEvent {
-  @override
-  List<Object> get props => [];
-}
-
-class ProfileLoaded extends ProfileEvent {
+class FetchProfile extends ProfileEvent {
   @override
   List<Object> get props => [];
 }

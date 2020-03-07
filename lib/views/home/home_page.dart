@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
           ),
           TabData(
             iconData: Icons.add_circle_outline,
-            title: "New Meeting",
+            title: "Created Meeting",
           ),
           TabData(
             iconData: Icons.person_outline,
